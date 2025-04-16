@@ -17,3 +17,24 @@ C:\Users\Nani\tp-eslint-git>npx eslint --fix app.js
 C:\Users\Nani\tp-eslint-git\app.js 2:1 warning Unexpected console statement no-console 4:3 warning Unexpected console statement no-console
 
 ✖ 2 problems (0 errors, 2 warnings)
+
+C:\Users\Nani\tp-eslint-git>npx eslint --fix .
+
+C:\Users\Nani\tp-eslint-git\app.js
+  2:1  warning  Unexpected console statement  no-console
+  4:3  warning  Unexpected console statement  no-console
+
+C:\Users\Nani\tp-eslint-git>npx eslint --fix index.js
+
+C:\Users\Nani\tp-eslint-git\index.js
+   3:3  warning  Unexpected console statement  no-console
+  11:5  warning  Unexpected console statement  no-console
+  17:1  warning  Unexpected console statement  no-console
+  22:3  warning  Unexpected console statement  no-console
+  33:3  warning  Unexpected console statement  no-console
+  37:3  warning  Unexpected console statement  no-console
+  48:3  warning  Unexpected console statement  no-console
+  49:3  warning  Unexpected console statement  no-console
+  53:3  warning  Unexpected console statement  no-console
+
+✖ 9 problems (0 errors, 9 warnings)
